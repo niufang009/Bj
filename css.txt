@@ -1,0 +1,20 @@
+1.flex布局
+    display: flex;
+    flex-direction: row;  按照横向或者正向的排列
+    justify-content: flex-start;  横向的居中，向左，向右，或者间距一样的布局
+    flex-wrap:wrap-reverse ;  屏幕宽度变小，里面的元素会比例变小还是换行
+    align-items: flex-end;纵向的靠上，靠下，或者居中
+
+    align-self: flex-end; 子元素中
+    order:排序
+    
+2.calc();可以计算高度宽度，计算高度时候需要加上position
+
+3.div中，不会换行怎么办？
+    解决方法：
+    1 在文本适当位置加空格，
+    2 css代码中加上这行：word-wrap:break-word;
+
+4.背景颜色透明，而文字不透明的解决办法
+    background-color:rgba(220, 136, 101,1);
+    color:#fff

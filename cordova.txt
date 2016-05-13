@@ -1,0 +1,15 @@
+需要环境：
+Cordova  Framework7 
+
+1.创建项目
+cordova create projectname
+
+2.到项目里面添加ios or android
+cordova platform add android
+cordova platform add iOS
+
+移除：
+cordova platform rm android
+
+3.打包项目
+cordova build

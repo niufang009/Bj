@@ -1,0 +1,26 @@
+{
+  "name": "bj",
+  "version": "0.0.1",
+  "description": "desc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niufang009/Bj.git"
+  },
+  "keywords": [
+    "bj"
+  ],
+  "author": "niufang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niufang009/Bj/issues"
+  },
+  "homepage": "https://github.com/niufang009/Bj#readme",
+  "devDependencies": {
+    "jquery": "^2.2.3",
+    "webpack": "^1.13.0"
+  }
+}

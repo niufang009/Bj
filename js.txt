@@ -1,0 +1,11 @@
+1.设置时间延迟执行:
+    setTimeout(function(){},2000);
+
+2.HTML5存储
+    localStorage.setItem("add_address_backbtn","address");
+    localStorage.getItem("add_address_backbtn");
+    localStorage.removeitem("add_address_backbtn);
+
+3.把浏览器变为可编辑状态,css实时编辑
+    data:text/html, <html contenteditable>
+    style="display:block" contentEditable

@@ -1,0 +1,11 @@
+python -m SimpleHTTPServer 8000
+
+sudo purge
+open -n /Applications/Sencha.app/
+chflags nohidden python/
+caffeinate -t 3600
+mkdir 创建
+mvdir a b 
+rmdir 删除
+rm -rf cs
+find ~/Desktop/ -iname "niufang"
