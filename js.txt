@@ -9,3 +9,6 @@
 3.把浏览器变为可编辑状态,css实时编辑
     data:text/html, <html contenteditable>
     style="display:block" contentEditable
+    
+4. 阻止事件冒泡
+    event.stopPropagation();
