@@ -1,0 +1,22 @@
+<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="#"><img src="static/images/index.jpg"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="static/images/index.jpg"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="static/images/index.jpg"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="static/images/index.jpg"></a></div>
+        </div>
+        <div class="pagination"></div>
+    </div>
+    
+
+<script>
+    //图片循环
+    var mySwiper = new Swiper('.swiper-container',{
+        pagination: '.pagination',
+        loop:true,
+        grabCursor: true,
+        paginationClickable: true,
+        calculateHeight:true,
+        autoplay:5000
+    });
+</script>
