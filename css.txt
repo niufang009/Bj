@@ -18,3 +18,8 @@
 4.背景颜色透明，而文字不透明的解决办法
     background-color:rgba(220, 136, 101,1);
     color:#fff
+    
+5.谷歌浏览器按钮的蓝色边框
+    :focus{
+        outline: 0;
+    }
