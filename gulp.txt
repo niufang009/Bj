@@ -1,0 +1,9 @@
+body-parser:用于解析客户端请求的body中的内容,内部使用JSON编码处理,url编码处理以及对于文件的上传处理
+
+browser-sync:浏览器同步测试工具
+
+chokidar:chokidar 是一个基于node.JS的监听文件夹改变模块。
+
+ejs:模板引用 <% %>
+
+express: npm install -g express && npm install -g express-generator

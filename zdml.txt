@@ -9,3 +9,6 @@ mvdir a b
 rmdir 删除
 rm -rf cs
 find ~/Desktop/ -iname "niufang"
+
+
+rm -rf .git
