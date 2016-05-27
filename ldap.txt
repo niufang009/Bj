@@ -1,0 +1,29 @@
+IT相关账号：
+虚拟机v7：HYCTT-5L9RQ-44T8L-C1RG5-K2GPC
+邮箱：
+fniu@maxleap.com  Qagu8355
+邮箱web登录：https://portal.partner.microsoftonline.cn
+邮箱客户端配置：https://confluence.maxleap.com/pages/viewpage.action?pageId=2588707
+
+
+LDAP账号:
+fniu  Qagu8355
+LDAP账号可以登录公司的jira、confluence、gitlab服务：
+jira：https://jira.maxleap.com/secure/Dashboard.jspa
+confluence:  https://confluence.maxleap.com/dashboard.action
+gitlab：https://gitlab.maxleap.com/
+
+
+共享服务账号：
+fniu Qagu8355
+共享访问方法：https://confluence.maxleap.com/pages/viewpage.action?pageId=2588697
+
+
+其他链接：
+浏览器翻墙方法：https://confluence.maxleap.com/pages/viewpage.action?pageId=2588718
+无线网络使用说明：https://confluence.maxleap.com/pages/viewpage.action?pageId=2588679
+
+
+niufang  niu13782002409
+
+

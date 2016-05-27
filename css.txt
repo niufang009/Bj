@@ -9,6 +9,8 @@
     order:排序
     
 2.calc();可以计算高度宽度，计算高度时候需要加上position
+      top: calc(50% - 95px);//符号前后有空格
+      left: calc(50% - 140px);
 
 3.div中，不会换行怎么办？
     解决方法：
@@ -23,3 +25,12 @@
     :focus{
         outline: 0;
     }
+    
+6.css上下左右居中
+    position: fixed;        
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+7. li里面经常用到，手势变为可点击状态
+    cursor: pointer;
