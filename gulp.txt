@@ -6,4 +6,4 @@ chokidar:chokidar 是一个基于node.JS的监听文件夹改变模块。
 
 ejs:模板引用 <% %>
 
-express: npm install -g express && npm install -g express-generator
+express: npm install -g express && npm install -g express-generator   1
