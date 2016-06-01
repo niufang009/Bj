@@ -1,0 +1,5 @@
+1.process.stdin.setEncoding(编码);
+ 
+process.stdout.setEncoding(编码);
+ 
+process.stderr.setEncoding(编码);

@@ -2,8 +2,19 @@ body-parser:用于解析客户端请求的body中的内容,内部使用JSON编�
 
 browser-sync:浏览器同步测试工具
 
+gulp-autoprefixer:自动补充前缀
+
+gulp-supervisor 它会监视你对代码的改动，并自动重启 Node.js。
+//http://www.jb51.net/article/57092.htm
+
+gulp-notify  显示报错信息和报错后不终止当前gulp任务
+//less如果出现编译错误，就会报错然后终止任务，这时less修改正确后，你还得手动重启gulp任务
+
 chokidar:chokidar 是一个基于node.JS的监听文件夹改变模块。
 
 ejs:模板引用 <% %>
 
-express: npm install -g express && npm install -g express-generator   1
+express: npm install -g express && npm install -g express-generator
+
+process模块用来与当前进程互动，可以通过全局变量process访问，不必使用require命令加载。它是一个EventEmitter对象的实例。
+rgv[0] 固定 等于NodeJS执行程序的绝对路径，argv[1] 固定等于主模块的绝对路径
