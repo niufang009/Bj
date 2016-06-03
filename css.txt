@@ -26,11 +26,14 @@
         outline: 0;
     }
     
-6.css上下左右居中
-    position: fixed;        
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+6.css居中方式
+    6.1：marin属性进行偏移来居中
+    6.2：通过flex来布局进行居中
+    6.3：通过定位和transform来居中
+            position: relative;        
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
     
 7. li里面经常用到，手势变为可点击状态
     cursor: pointer;
