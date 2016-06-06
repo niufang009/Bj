@@ -37,3 +37,8 @@
     
 7. li里面经常用到，手势变为可点击状态
     cursor: pointer;
+    
+8. background-size: cover;   
+   overflow: hidden;
+   
+9.写菜单用margin-right:来调整边距

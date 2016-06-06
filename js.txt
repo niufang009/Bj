@@ -12,3 +12,73 @@
     
 4. 阻止事件冒泡
     event.stopPropagation();
+
+5. 屏幕大小变化后的事件
+    $(function () {
+            'use strict';   
+            $(window).resize(function(){
+                var currentWidth = $(window).width();
+                //Mobile
+                if( currentWidth < windowbreakpoint ){
+                    $("html").css("font-size",Math.pow(currentWidth/windowbreakpoint,0.4)*100 +"%");
+                    initMobile();
+                //PC
+                }else{
+                    $("html").css("font-size","100%");
+                    initPC();
+                }
+            })
+            $(window).resize();
+        });
+        
+6.init goTop(返回顶部)
+        $("#goTop").click(function(){
+            $('html,body').animate({scrollTop: '0px'}, 800);
+        })
+
+        $(window).bind("scroll", function() {
+            if ($(window).scrollTop() > 1000) {
+                $("#goTop").show();
+            }else{
+                $("#goTop").hide();
+            }
+        })
+        
+7.左右滑动显示
+        $('#righter .phone400').closest('.cube').hover(function(e){
+                    $('#righter .phone400').show().animate({"left":"-160px","width":"160px"},100);
+                },function(e){
+                    $('#righter .phone400').animate({"left":"0px","width":"0px"},100,function(){
+                        $(this).hide();
+                    });
+                })
+                
+8.导航下拉菜单
+        $("#navbar>.navli").hover(function(e){
+                    if($(e.currentTarget).find(".dropdown").size() == 0){
+                        $("#navbar>.navli").find(".dropdown").slideUp(100);
+                        $("#navbar>.navli").find("a").off("mouseout");
+                        return;
+                    };
+        
+                    $(e.currentTarget).find(".dropdown").slideDown(100);
+        
+                },function(e){
+                    if($(e.currentTarget).find(".dropdown").size() == 0){
+                        return;
+                    }
+        
+                    $(e.currentTarget).find(".dropdown").slideUp(100);
+                });
+                
+9.下拉加载事件
+        $(window).on("scroll", function() {
+                    var scrollHeight = $(this).scrollTop() + $(this).height();
+                    $("img:visible").each(function(index, item) {
+                        if ($(item).offset().top < scrollHeight && $(item).data("src")) {
+                            $(item).attr("src", $(item).data("src"));
+                        }
+                    });
+
+                })
+                $(window).trigger("scroll");

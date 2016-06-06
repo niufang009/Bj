@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+            #t {
+                width: 0px;
+                height: 50px;
+                border: 2px solid #0F93AA;
+                opacity: 0;
+                -webkit-transition: all 2s;
+            }
+            
+            #tean {
+                width: 200px;
+                height: 200px;
+                border: 2px solid #358CF0;
+                -webkit-transition: all 2s;
+            }
+            
+            #tean:hover {
+                
+                width: 300px;
+            }
+            #tean:hover > #t{
+                opacity: 1;
+                width: 50px;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div id="tean">abcdefg
+            <div id="t">abcdefg</div>
+        </div>
+    </body>
+
+</html>
